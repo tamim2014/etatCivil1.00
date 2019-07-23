@@ -5,17 +5,19 @@
 <head>
  <meta charset="utf-8"> <!-- sinon tu peux pas écrire N° ni les accent-->
  <title> Authentification officier de l'etat civil</title>
- <link href="css/accueil.css" rel="stylesheet" title="Style" />
+ <link href="css/authentification.css" rel="stylesheet" title="Style" />
 </head>
 
 <body>
 <!-- ARRIERE-PLAN -->
 
-<table class="closeLowerMargin "  style="background-color:#1D702D;  top:-360px; z-index:2;  border-radius:20px;"><tr><td>  </td></tr></table> 
+<!-- <table class="closeLowerMargin "  style="background-color:#1D702D;  top:-360px; z-index:2;  border-radius:20px;"><tr><td>  </td></tr></table> -->
+<table class="closeLowerMargin "  style="background-color:#1D702D;  top:-360px; z-index:2;  border-radius:20px;"><tr><td>  </td></tr></table>
 <table class="openLowerMargin "  style="background-color:#1D702D;   "><tr><td>  </td></tr></table> <!-- รงa rempli les vide de l\'interface -->
 
 
 <div class="centrer"  >
+
 
 <form action ="" method="post" name="form1" >
 <!-- PANNEAU DE GAUCHE -->
