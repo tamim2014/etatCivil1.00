@@ -316,19 +316,20 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
 
 
 .closeLowerMargin  {
-	    background: silver; /* #e5eecc;  #1D702D; #99993F; */
-		position:absolute;  left:165px;  margin:10px;  width:73%; height:615px; z-index:1; /* ct top:60px;  border-radius:20px;*/
-		top:80px;
-		border-radius:0px;
+	    background-color:#1D702D; /* #e5eecc;  #1D702D; #99993F; */
+		position:absolute;  left:12.3%;  margin:10px;  width:73%; height:98.5%; z-index:1; /* left:165px; height:615px; */
+		top:-57%;
+		border-radius:20px;
+		z-index:2; 
 		box-shadow:
 		0px 2px 2px 0px rgba(0, 0, 0, 0.5),
 		0px 2px 2px 0px rgba(255, 255, 255, 0.5) inset; 
   
 }
 .openLowerMargin  {
-	    background: silver; /* #e5eecc;  #1D702D; #99993F; */
-		position:absolute;  left:165px;  margin:10px;  width:73%; height:615px; z-index:1; /* ct top:60px;  border-radius:20px;*/
-		top:60px;
+	    background-color:#1D702D; /* #e5eecc;  #1D702D; #99993F;  background: silver; */
+		position:absolute;  left:12.5%;  margin:10px;  width:73%; height:112%; z-index:1; /* left:165px; height:615px;*/
+		top:-2%;
 		border-radius:0px;
 		box-shadow:
 		0px 2px 2px 0px rgba(0, 0, 0, 0.5),
@@ -336,8 +337,10 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
   
 }
 
+/********************************************************************************************
+
 .line1 {
-	    background: silver; /* #e5eecc;  #1D702D; */ 
+	    background: silver; 
 		position:absolute; z-index:1; top:110px; left:165px; width:73%; margin:10px; 
 		border-radius:20px;
 		box-shadow:
@@ -345,7 +348,7 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
 		0px 2px 2px 0px rgba(255, 255, 255, 0.5);
 }
 .line3 { 
-		background: silver;  /* #e5eecc;  #1D702D; */ 
+		background: silver; 
 		position:absolute; z-index:1; top:244px; left:165px; width:73%; margin:10px; 
 		border-radius:20px;
 		box-shadow:
@@ -355,13 +358,15 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
 
 
 .line2 {
-		background: silver; /* #e5eecc;  #1D702D; */ 
+		background: silver; 
 		position:absolute; z-index:1; top:180px; left:165px; width:73%; margin:10px; 
 		border-radius:20px;
 		box-shadow:
 		0px 2px 2px 0px rgba(0, 0, 0, 0.5),
 		0px 2px 2px 0px rgba(255, 255, 255, 0.5) inset;
 }
+
+****************************************************************************************************/
 #login_:hover , #pswd_:hover  { background-color: #1D702D; color:#ffffff; font-size: 17px; font-weight:bold;    box-shadow:0px 2px 2px 0px rgba(0, 0, 0, 0.5) inset, 0px 2px 2px 0px rgba(255, 255, 255, 0.5); }
 #valider_:hover { color: #1D702D; font-weight:bold; font-size: 20px; font-style: italic;}
 #recherchenum, #recherchenom { background-color: #e5eecc; }

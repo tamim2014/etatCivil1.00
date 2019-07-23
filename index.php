@@ -11,9 +11,9 @@
 <body>
 <!-- ARRIERE-PLAN -->
 
-<!-- <table class="closeLowerMargin "  style="background-color:#1D702D;  top:-360px; z-index:2;  border-radius:20px;"><tr><td>  </td></tr></table> -->
-<table class="closeLowerMargin "  style="background-color:#1D702D;  top:-360px; z-index:2;  border-radius:20px;"><tr><td>  </td></tr></table>
-<table class="openLowerMargin "  style="background-color:#1D702D;   "><tr><td>  </td></tr></table> <!-- รงa rempli les vide de l\'interface -->
+
+<table class="closeLowerMargin" ><tr><td>  </td></tr></table>
+<table class="openLowerMargin " ><tr><td>  </td></tr></table> <!-- รงa rempli les vide de l\'interface -->
 
 
 <div class="centrer"  >
