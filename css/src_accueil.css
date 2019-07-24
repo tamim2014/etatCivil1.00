@@ -220,7 +220,9 @@ button      {
 
 }
 
-.hollowBottom  { 
+
+
+.hollowBottom  { /* EFFET CREUX */ /* dessOUs de l'armoirerie. Sous le panneau gauche. Sur la tablebasrallongee */
 			  background:silver;  /* #93A299; #e5eecc;  #1D702D; */ 
 			  position:absolute;  left:12.3%; top:41.6%; margin:10px;  width:73%; height:64%; /* left:165px; left:12.3%; top:260px;  top:41.6%; height:400px; height:64%; */
 			  border-radius:20px;
@@ -237,9 +239,12 @@ button      {
 			*/  
 }
 
+
+
+
 .closeLowerMargin {
 	    background: silver; /* #e5eecc;  #1D702D; #99993F; silver; */
-		position:absolute;  left:12.3%;  margin:10px;  width:73%; height:104%; z-index:1; /* height:98.5%; ct top:60px;  border-radius:20px; left:165px; height:615px; height:98.5%;*/
+		position:absolute;  left:12.3%;  margin:10px;  width:73%; height:98.5%; z-index:1; /* ct top:60px;  border-radius:20px; left:165px; height:615px; height:98.5%;*/
 		top:11% ; /* top:80px ;  top:12% ; */
 		border-radius:0px;
 		box-shadow:
@@ -312,7 +317,7 @@ button      {
 		-khtml-border-radius: 20px 0px 0px 20px;
 	}
 /* Hack CSS pour IE8 et IE9   */
-.flag {
+  .flag {
         border-radius /*\**/:20px 0px 0px 20px\9;
 		-webkit-border-radius: 20px 0px 0px 20px;
 		-moz-border-radius: 20px 0px 0px 20px;
@@ -340,17 +345,9 @@ button      {
 .centrer
 {
   position: absolute;
-    left: 5%;  /* 27.98%;    */
-	padding-left:0px;
+    left: 27.98%;  /*  left: 32%;  */
     top:  8.5%;  /*  top:  8.5%;   */
-	 
 	text-align:center;
-	float:left;
-	
-	width:80%
-	
-	
-	
 }
 
 /****seulement pour Firefox et Netscape  mais ça marche pas ******************
@@ -360,8 +357,9 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
 /* support des panneaux - "les matelas" ou "les savons" ... tu les apl comme tu veux! */
 .tablegauche
 {
-  position:absolute; left:10.2%; width: 25%;
-  top: 73px; height:397px; /* poser ici un media queri pour les grand ecran */    
+   /* firefox a besoin d'un 'top:70px'.Contrairement à tous les autres browsers qui sont bien à73px. Solution? top:?*/
+
+  position:absolute; z-index:2; left:-200px;  top:73px;    right:200px; height:397px; width:280px; 
   border-radius:20px 0px 0px 20px;
 	-webkit-border-radius: 20px 0px 0px 20px;
 	-moz-border-radius: 20px 0px 0px 20px;
@@ -369,33 +367,31 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
   box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
   -webkit-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
   -moz-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
-  z-index:2;
-  /* border: 3px solid #e5eecc; */
 }
+
 .tablecentre
 {
-  position:absolute; left:35.5%;   width:18%; 
-  top:-17px;  height:606px; padding-top: 55px;  max-height:606px; /* poser ici un media queri pour les grand ecran */
+  position:absolute; left:90px;  top:-17px; z-index:2; height:606px; max-height:606px; width:200px; padding-top: 55px;
+ 
   border-radius:0;
   box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47; 
   -webkit-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
-  -moz-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
-  z-index:2;
-  /* border: 3px solid #e5eecc; */     
+  -moz-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47; 
+  
+   
 }
-.tabledroite { /* valable pour acueil.php, ecritureBD.php , et ecritureBD.php */
 
-  position:absolute; left:54%;   width:47.3%; /*width:482pxpx;*/
-  top:-17px;  height:606px; /* poser ici un media queri pour les grand ecran */  
+
+.tabledroite { /*acueil.php ? ecritureBD.php , ecritureBD.php */
+
+  position:absolute; left:300px;  top:-17px; z-index:2; height:606px; width:482px; /*  height:606px    width:370px;*/
   border-radius:0px 0px 20px 0px;
    	-webkit-border-radius: 0px 0px 20px 0px;
 	-moz-border-radius: 0px 0px 20px 0px;
 	-khtml-border-radius: 0px 0px 20px 0px;
   box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47; 
   -webkit-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
-  -moz-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
-  z-index:2;
-  /* border: 3px solid #e5eecc; */  
+  -moz-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;   
 }
 
 
