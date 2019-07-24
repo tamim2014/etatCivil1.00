@@ -184,87 +184,11 @@ button      {
 	
 }
 
-
-/* conteneur des 3 panneaux verticaux: .tablegauche ,.tablecentre ,.tabledroite */
-
-.centrer
-{
-  position: absolute;
-    left: 32%;  /* left: 400px;   */
-    top:  8.5%;   /* top:52px;   */
-	text-align:center;
-}
-
-/****seulement pour Firefox et Netscape  mais ça marche pas ******************
-html:not([lang*=“”]) .centrer { position: absolute; top:48px; }  
-*****************************************************************************/
-
-/* support des panneaux - "les matelas" ou "les savons" ... tu les apl comme tu veux! */
-.tablegauche
-{
-   /* firefox a besoin d'un 'top:70px'.Contrairement à tous les autres browsers qui sont bien à73px. Solution? top:?*/
-
-  position:absolute; z-index:2; left:-200px;  top:73px;    right:200px; height:397px; width:280px; 
-  box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
-  -webkit-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
-  -moz-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
-}
-
-.tablecentre
-{
-  position:absolute; left:90px;  top:-16px; z-index:2; height:606px; max-height:606px; width:200px; padding-top: 55px;
-  box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47; 
-  -webkit-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
-  -moz-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47; 
-  
-   
-}
-
-
-.tabledroite { /*acueil.php ? ecritureBD.php , ecritureBD.php */
-
-  position:absolute; left:300px;  top:-16px; z-index:2; height:606px; width:370px; /*  height:606px*/
-  box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47; 
-  -webkit-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
-  -moz-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;   
-}
-
-
-.tabledroiteresultat{ /* lectureBD.php et lectureBD2.php */
-  position:absolute; left:100px;  top:-16px; z-index:2; height:606px; width:570px;/* ct width:550px; */
-  box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47; 
-}
-/* Hack CSS pour IE5 et IE6   */
- *  html .flag {
-        border-radius /*\**/:20px 0px 0px 20px\9;
-		-webkit-border-radius: 20px 0px 0px 20px;
-		-moz-border-radius: 20px 0px 0px 20px;
-		-khtml-border-radius: 20px 0px 0px 20px;
-	}
-/* Hack CSS pour IE7   */
- *+html .flag {
-        border-radius /*\**/:20px 0px 0px 20px\9;
-		-webkit-border-radius: 20px 0px 0px 20px;
-		-moz-border-radius: 20px 0px 0px 20px;
-		-khtml-border-radius: 20px 0px 0px 20px;
-	}
-/* Hack CSS pour IE8 et IE9   */
-  .flag {
-        border-radius /*\**/:20px 0px 0px 20px\9;
-		-webkit-border-radius: 20px 0px 0px 20px;
-		-moz-border-radius: 20px 0px 0px 20px;
-		-khtml-border-radius: 20px 0px 0px 20px;
-	}
-/* IE10 and other browser   */
-.flag {
-        border-radius:20px 0px 0px 20px;
-		-webkit-border-radius: 20px 0px 0px 20px;
-		-moz-border-radius: 20px 0px 0px 20px;
-		-khtml-border-radius: 20px 0px 0px 20px;
-
-	/* la ligne suivante permet de supprimer la marge entre le drapeau et son contEneur */
-	/* margin:-2px -3px -3px -3px; */       /* Oui! mais je vire cette instruction parce que je prefere garder la marge*****/
-	}
+/****************************************************************************************************************
+*
+*       SUPPORT SILVER ( 4 panneaux horizontal en dessous des tables de saisie  )
+*
+****************************************************************************************************************/	
 	
 .closeUpperMargin  {  /* dessUs du drapeau. J'ai dï¿½passï¿½ dï¿½liberement la margre haut de l'ecran */ 
 			background: silver; /* #e5eecc;  #1D702D; */ 
@@ -282,7 +206,7 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
 }
 	
 
-.hollowTop  { /* EFFET CREUX */  /* sous le drapeau. càd contient le drapeau */ 
+.hollowTop  { /* EFFET CREUX */  /* sous le drapeau. cï¿½d contient le drapeau */ 
 			
 			background: silver; /* #e5eecc;  #1D702D; */ 
 			position:absolute; top:1px; left:12.3%;  margin:10px ;    padding:0px;   width:73%; height:12%;  /* height:75px; */  
@@ -368,6 +292,105 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
 		0px 2px 2px 0px rgba(255, 255, 255, 0.5) inset;
 }
 */
+
+
+/****************************************************************************************
+*
+*       CONTENUS SUR LE SUPPORT Silver( drapeau , text, 3 tables de saisie, menu )
+*
+*****************************************************************************************/
+
+/* LE flag defini le style du drapeau national ( mis en lieu et place du logo  */
+
+/* Hack CSS pour IE5 et IE6   */
+ *  html .flag {
+        border-radius /*\**/:20px 0px 0px 20px\9;
+		-webkit-border-radius: 20px 0px 0px 20px;
+		-moz-border-radius: 20px 0px 0px 20px;
+		-khtml-border-radius: 20px 0px 0px 20px;
+	}
+/* Hack CSS pour IE7   */
+ *+html .flag {
+        border-radius /*\**/:20px 0px 0px 20px\9;
+		-webkit-border-radius: 20px 0px 0px 20px;
+		-moz-border-radius: 20px 0px 0px 20px;
+		-khtml-border-radius: 20px 0px 0px 20px;
+	}
+/* Hack CSS pour IE8 et IE9   */
+  .flag {
+        border-radius /*\**/:20px 0px 0px 20px\9;
+		-webkit-border-radius: 20px 0px 0px 20px;
+		-moz-border-radius: 20px 0px 0px 20px;
+		-khtml-border-radius: 20px 0px 0px 20px;
+	}
+/* IE10 and other browser   */
+.flag {
+        border-radius:20px 0px 0px 20px;
+		-webkit-border-radius: 20px 0px 0px 20px;
+		-moz-border-radius: 20px 0px 0px 20px;
+		-khtml-border-radius: 20px 0px 0px 20px;
+	/* la ligne suivante permet de supprimer la marge entre le drapeau et son contEneur */
+	/* margin:-2px -3px -3px -3px; */       /* Oui! mais je vire cette instruction parce que je prefere garder la marge*****/
+	}
+
+/****************************************************************************************************************
+*
+*                                      LES 3 TABLES DE SAISIE et leur conteneur
+*
+****************************************************************************************************************/
+
+
+/* conteneur des 3 panneaux verticaux: .tablegauche ,.tablecentre ,.tabledroite */
+
+.centrer
+{
+  position: absolute;
+    left: 32%;  /* left: 400px;   */
+    top:  8.5%;   /* top:52px;   */
+	text-align:center;
+}
+
+/****seulement pour Firefox et Netscape  mais ça marche pas ******************
+html:not([lang*=“”]) .centrer { position: absolute; top:48px; }  
+*****************************************************************************/
+
+/* support des panneaux - "les matelas" ou "les savons" ... tu les apl comme tu veux! */
+.tablegauche
+{
+   /* firefox a besoin d'un 'top:70px'.Contrairement à tous les autres browsers qui sont bien à73px. Solution? top:?*/
+
+  position:absolute; z-index:2; left:-200px;  top:73px;    right:200px; height:397px; width:280px; 
+  box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
+  -webkit-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
+  -moz-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
+}
+
+.tablecentre
+{
+  position:absolute; left:90px;  top:-16px; z-index:2; height:606px; max-height:606px; width:200px; padding-top: 55px;
+  box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47; 
+  -webkit-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
+  -moz-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47; 
+  
+   
+}
+
+
+.tabledroite { /*acueil.php ? ecritureBD.php , ecritureBD.php */
+
+  position:absolute; left:300px;  top:-16px; z-index:2; height:606px; width:370px; /*  height:606px*/
+  box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47; 
+  -webkit-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
+  -moz-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;   
+}
+
+
+.tabledroiteresultat{ /* lectureBD.php et lectureBD2.php */
+  position:absolute; left:100px;  top:-16px; z-index:2; height:606px; width:570px;/* ct width:550px; */
+  box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47; 
+}
+
+
 
 #login_:hover , #pswd_:hover  { background-color: #1D702D; color:#ffffff; font-size: 17px; font-weight:bold;    box-shadow:0px 2px 2px 0px rgba(0, 0, 0, 0.5) inset, 0px 2px 2px 0px rgba(255, 255, 255, 0.5); }
 #valider_:hover { color: #1D702D; font-weight:bold; font-size: 20px; font-style: italic;}
