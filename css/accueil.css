@@ -1,4 +1,6 @@
 /************************************************************************************ 
+HAUTEUR Lenovo L450 = 625 px
+LARGEUR Lenovo L450 = 1342 px
 
 Couleurs utilisées:
 
@@ -188,8 +190,8 @@ button      {
 .centrer
 {
   position: absolute;
-    left: 32%; 
-    top: 9%;   
+    left: 32%;  /* left: 400px;   */
+    top:  8.5%;   /* top:52px;   */
 	text-align:center;
 }
 
@@ -219,8 +221,7 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
 }
 
 
-.tabledroite 
-{ /*acueil.php ? ecritureBD.php , ecritureBD.php */
+.tabledroite { /*acueil.php ? ecritureBD.php , ecritureBD.php */
 
   position:absolute; left:300px;  top:-16px; z-index:2; height:606px; width:370px; /*  height:606px*/
   box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47; 
@@ -229,8 +230,7 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
 }
 
 
-.tabledroiteresultat
-{ /* lectureBD.php et lectureBD2.php */
+.tabledroiteresultat{ /* lectureBD.php et lectureBD2.php */
   position:absolute; left:100px;  top:-16px; z-index:2; height:606px; width:570px;/* ct width:550px; */
   box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47; 
 }
@@ -270,7 +270,7 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
 .hollowTop  { /* EFFET CREUX */  /* sous le drapeau. càd contient le drapeau */ 
 			
 			background: silver; /* #e5eecc;  #1D702D; */ 
-			position:absolute; top:1px; left:165px;  margin:10px ;    padding:0px;   width:73%; height:75px;   
+			position:absolute; top:1px; left:165px;  margin:10px ;    padding:0px;   width:73%; height:12%;  /* height:75px; */  
 			z-index:3; /* POUR OBTENIR LE PANNEAUDE DROITE EN ENTIER(version2): z-index:2; */
 			border-radius:20px;
 			/* EFFET CREUX */
@@ -283,8 +283,9 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
 
 .closeUpperMargin  {  /* dessUs du drapeau. J'ai dépassé déliberement la margre haut de l'ecran */ 
 			background: silver; /* #e5eecc;  #1D702D; */ 
-			position:absolute;  left:165px;  margin:10px;  width:73%; height:100px; /* ct height:415px; */
-			z-index:1;  top:-30px;
+			position:absolute;  left:12.2%;  margin:10px;  width:73%; height:10%; /* ct height:100px;   top:-30px;*/
+			top:-3.3%; /* top:-30px;*/
+			z-index:1;  
 			-webkit-border-radius:0px; 
 	
 				
@@ -297,7 +298,7 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
 
 .hollowBottom  { /* EFFET CREUX */ /* dessOUs de l'armoirerie. Sous le panneau gauche. Sur la tablebasrallongee */
 			  background: silver; /* #e5eecc;  #1D702D; */ 
-			  position:absolute;  left:165px; top:260px; margin:10px;  width:73%; height:400px;
+			  position:absolute;  left:12.2%; top:41.6%; margin:10px;  width:73%; height:64%; /* left:165px; top:260px; height:400px; */
 			  border-radius:20px;
 			  z-index:2;
 			/* EFFET CREUX */
@@ -316,27 +317,55 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
 
 
 .closeLowerMargin  {
-	    background-color:#1D702D; /* #e5eecc;  #1D702D; #99993F; */
-		position:absolute;  left:12.3%;  margin:10px;  width:73%; height:98.5%; z-index:1; /* left:165px; height:615px; */
-		top:-57%;
-		border-radius:20px;
-		z-index:2; 
-		box-shadow:
-		0px 2px 2px 0px rgba(0, 0, 0, 0.5),
-		0px 2px 2px 0px rgba(255, 255, 255, 0.5) inset;   
-}
-
-.openLowerMargin  {
-	    background-color:#1D702D; /* #e5eecc;  #1D702D; #99993F;  background: silver; */
-		position:absolute;  left:12.5%;  margin:10px;  width:73%; height:112%; z-index:1; /* left:165px; height:615px;*/
-		top:-2%;
+	    background: silver; /* #e5eecc;  #1D702D; #99993F; silver; */
+		position:absolute;  left:12.3%;  margin:10px;  width:73%; height:98.5%; z-index:1; /* ct top:60px;  border-radius:20px; left:165px; height:615px;*/
+		top:12% ; /* top:80px ;  */
 		border-radius:0px;
 		box-shadow:
 		0px 2px 2px 0px rgba(0, 0, 0, 0.5),
-		0px 2px 2px 0px rgba(255, 255, 255, 0.5) inset; 
-  
+		0px 2px 2px 0px rgba(255, 255, 255, 0.5) inset;  
 }
 
+/*
+.openLowerMargin  {
+	    background: silver; 
+		position:absolute;  left:165px;  margin:10px;  width:73%; height:615px; z-index:1; 
+		top:60px;
+		border-radius:0px;
+		box-shadow:
+		0px 2px 2px 0px rgba(0, 0, 0, 0.5),
+		0px 2px 2px 0px rgba(255, 255, 255, 0.5) inset;  
+}
+*/
+
+
+.line1 {
+	    background: silver; /* #e5eecc;  #1D702D; background: silver;*/ 
+		position:absolute; left:12.3%;   top:17.5%;  width:73%; margin:10px; z-index:1; /* #e5eecc;  #1D702D;  left:165px;  top:110px;  */ 
+		border-radius:20px;
+		box-shadow:
+		0px 2px 2px 0px rgba(0, 0, 0, 0.5) inset,
+		0px 2px 2px 0px rgba(255, 255, 255, 0.5);
+}
+.line3 { 
+		background: silver;  /* #e5eecc;  #1D702D; */ 
+		position:absolute; left:12.3%;  top:38.8%;  width:73%; margin:10px; z-index:1; /* top:244px; */ 
+		border-radius:20px;
+		box-shadow:
+		0px 2px 2px 0px rgba(0, 0, 0, 0.5) inset,
+		0px 2px 2px 0px rgba(255, 255, 255, 0.5);
+}
+
+/*
+.line2 {
+		background: silver; 
+		position:absolute; z-index:1; top:180px; left:165px; width:73%; margin:10px; 
+		border-radius:20px;
+		box-shadow:
+		0px 2px 2px 0px rgba(0, 0, 0, 0.5),
+		0px 2px 2px 0px rgba(255, 255, 255, 0.5) inset;
+}
+*/
 
 #login_:hover , #pswd_:hover  { background-color: #1D702D; color:#ffffff; font-size: 17px; font-weight:bold;    box-shadow:0px 2px 2px 0px rgba(0, 0, 0, 0.5) inset, 0px 2px 2px 0px rgba(255, 255, 255, 0.5); }
 #valider_:hover { color: #1D702D; font-weight:bold; font-size: 20px; font-style: italic;}
@@ -354,13 +383,10 @@ text-shadow: 2px 2px #beae8c;
 
 /*
 a.nouveaudocument:hover , .listdocument:hover { background-color: green; color:green ;    }
-*/
 
-/* 
    un effet creux sur les items menu central au survol de la souris
-   -> J'obtients plutôt un effet cube, mais je prends car je le trouve original
-   
- */
+   -> J'obtients plutôt un effet cube, mais je prends car je le trouve original   
+*/
  
  
  
