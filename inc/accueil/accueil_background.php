@@ -6,8 +6,8 @@
     <tr>  
 		<td ><input type=image src="img/drapeau.png" align="left" class="flag" /></td>
 		<td></td><td></td>  
-		<td style="padding-top:50px; color: #FFFFFF;" > <h3> OFFICE   </h3></td><td></td><td></td><td></td><td></td><td></td><td></td> 
-		<td style="padding-top:50px; color: #FFFFFF;"> <h3> D\'ETAT CIVIL  </h3></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td> 
+		<td style="padding-top:50px; color: #FFFFFF;" > <h3> OFFICE   </h3></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td> <td></td><td></td> <td></td><td></td><td></td>         
+		<td style="padding-top:50px; color: #FFFFFF;"> <h3> D\'ETAT CIVIL  </h3></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></td><td><td></td> 
     </tr>
 </table>  
 <table class="hollowBottom"><tr><td>  </td></tr></table> <!--  creux du bas -->

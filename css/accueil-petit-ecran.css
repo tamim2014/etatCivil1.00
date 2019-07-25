@@ -1,6 +1,6 @@
 /************************************************************************************ 
 HAUTEUR Lenovo L450 = 625 px
-LARGEUR Lenovo L450 = 1342 px
+LARGEUR Lenovo L450 = 1366 px
 
 Couleurs utilisées:
 
@@ -361,7 +361,7 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
 .tablegauche
 {
   position:absolute; left:10.2%; width: 25%;
-  top: 73px; height:397px; /* poser ici un media queri pour les grand ecran */    
+  top: 73px; height:397px; /* ces parametres vont changer pour les ecran>1366px */    
   border-radius:20px 0px 0px 20px;
 	-webkit-border-radius: 20px 0px 0px 20px;
 	-moz-border-radius: 20px 0px 0px 20px;
@@ -377,7 +377,7 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
 .tablecentre
 {
   position:absolute; left:35.5%;   width:18%; 
-  top:-17px;  height:606px; padding-top: 55px;  max-height:606px; /* poser ici un media queri pour les grand ecran */
+  top:-17px;  height:606px; padding-top: 55px;  max-height:606px; /* ces parametres vont changer pour les ecran>1366px  */
   border-radius:0;
   box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47; 
   -webkit-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
@@ -388,7 +388,7 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
 .tabledroite { /* valable pour acueil.php, ecritureBD.php , et ecritureBD.php */
 
   position:absolute; left:54%;   width:47.3%; /*width:482pxpx;*/
-  top:-17px;  height:606px; /* poser ici un media queri pour les grand ecran */  
+  top:-17px;  height:606px; /* ces parametres vont changer pour les ecran>1366px  */  
   border-radius:0px 0px 20px 0px;
    	-webkit-border-radius: 0px 0px 20px 0px;
 	-moz-border-radius: 0px 0px 20px 0px;
