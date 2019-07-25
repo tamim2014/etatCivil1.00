@@ -192,8 +192,8 @@ button      {
 	
 .closeUpperMargin  {  
 			background: silver; 
-			position:absolute;  left:12.3%;  margin:10px;  width:73%; height:10%; 
-			top:-3.3%; /* top:-30px;  top:-3.3%; */
+			position:absolute;  left:12.3%;  margin:10px;  width:73%;
+			top:-3.3%;  height:10%;  /*   top:-3.3%; height:10%; */
 			z-index:1;  
 			-webkit-border-radius:0px; 
 	
@@ -209,7 +209,7 @@ button      {
 .hollowTop  { /* EFFET CREUX */  /* sous le drapeau. cï¿½d contient le drapeau */ 
 			
 			background: silver; /* #93A299;  silver; #e5eecc;  #1D702D;  */ 
-			position:absolute; top:1px; left:12.3%;  margin:10px ;    padding:0px;   width:73%; height:12%;  /* height:75px; */  
+			position:absolute;  margin:10px ;    padding:0px;   width:73%; height:12%;  /* height:75px; */  
 			z-index:3; /* POUR OBTENIR LE PANNEAUDE DROITE EN ENTIER(version2): z-index:2; */
 			border-radius:20px;
 			/* EFFET CREUX */
@@ -217,6 +217,8 @@ button      {
 			0px 2px 2px 0px rgba(0, 0, 0, 0.5) inset,
 			0px 2px 2px 0px rgba(255, 255, 255, 0.5);
 			padding:0px;
+			
+			top:1px; left:12.3%; 
 
 }
 
@@ -235,19 +237,20 @@ button      {
 				0px 2px 2px 0px rgba(0, 0, 0, 0.5),
 				0px 2px 2px 0px rgba(255, 255, 255, 0.5) inset; 
 			*/ 
-			 top:41.6%;   /* top:41.6%;  */
-			 height:64%;  /* height:64%;   */
-             bottom:2%;	  /* bottom:2%;  */	
+
+           top:41.6%; height:73%;	 /* Resolution1920x1080 top:11%; height:64%; | resolution1768x717 */
 }
 
 .closeLowerMargin {
 	    background: silver; /* #e5eecc;  #1D702D; #99993F; silver; */
 		position:absolute;  left:12.3%;  margin:10px;  width:73%; height:104%; z-index:1; /* height:98.5%; ct top:60px;  border-radius:20px; left:165px; height:615px; height:98.5%;*/
-		top:11%; height:104%; /* top:11%; height:104%; */
+		
 		border-radius:0px;
 		box-shadow:
 		0px 2px 2px 0px rgba(0, 0, 0, 0.5),
 		0px 2px 2px 0px rgba(255, 255, 255, 0.5) inset;  
+		
+		top:11%; height:113%; /* Resolution1920x1080 top:11%; height:104%; | resolution1768x717  */
 }
 
 /*
@@ -265,19 +268,23 @@ button      {
 
 .line1 {
 	    background: silver; /* #e5eecc;  #1D702D; background: silver;*/ 
-		position:absolute; left:12.3%;   top:14%;  width:73%; margin:10px; z-index:1; /* #e5eecc;  #1D702D;  left:165px;  top:110px;  */ 
+		position:absolute; left:12.3%;    width:73%; margin:10px; z-index:1; /* #e5eecc;  #1D702D;  left:165px;  top:110px;  */ 
 		border-radius:20px;
 		box-shadow:
 		0px 2px 2px 0px rgba(0, 0, 0, 0.5) inset,
 		0px 2px 2px 0px rgba(255, 255, 255, 0.5);
+		
+		top:19%;  /* Resolution1920x1080 top:14%  | Resolution1768x717 top: top:18%; */
 }
 .line2 {
 	    background: silver; /* #e5eecc;  #1D702D; background: silver;*/ 
-		position:absolute; left:12.3%;   top:27%;  width:73%; margin:10px; z-index:1; /* #e5eecc;  #1D702D;  left:165px;  top:110px;  */ 
+		position:absolute; left:12.3%;    width:73%; margin:10px; z-index:1; /* #e5eecc;  #1D702D;  left:165px;  top:110px;  */ 
 		border-radius:20px;
 		box-shadow:
 		0px 2px 2px 0px rgba(0, 0, 0, 0.5) inset,
 		0px 2px 2px 0px rgba(255, 255, 255, 0.5);
+		
+		top:31%; /* Resolution1920x1080 top:27%  | Resolution1768x717 top: top:31%; */
 }
 .line3 { 
 		background: silver;  /* #e5eecc;  #1D702D; */ 
@@ -354,12 +361,14 @@ button      {
     left: 5%;  /* 27.98%; 5%;   */
 	padding-left:0px;
     top:  8.5%;  /*  top:  8.5%;   */
-	bottom:2%;
+	
 	 
 	text-align:center;
 	float:left;
 	
 	width:80%;
+	
+	bottom:2%;
 	
 	
 	
@@ -375,7 +384,7 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
 .tablegauche
 {
   position:absolute; left:10.2%; width: 25%;
-  top: 228px; height:677px; /*  test fait avec une resolution FHD: 1920x1080 px  */    
+   
   border-radius:20px 0px 0px 20px;
 	-webkit-border-radius: 20px 0px 0px 20px;
 	-moz-border-radius: 20px 0px 0px 20px;
@@ -385,13 +394,14 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
   -moz-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
   z-index:2;
   /* border: 3px solid #e5eecc; */
+  top: 16%; height:80%; /*resolutionFHD:1920x1080  top: 228px; height:677px; | Resolution1768x717  top: 16%; height:80%;  */   
 }
 
 
 .tablecentre
 {
   position:absolute; left:35.5%;   width:18%; 
-  top:-17px;  height:1042px; max-height:1042px; padding-top: 55px;   /*   Test fait en FHD: 1920x1080 px */
+  top:-1%;  height:115.5%; max-height:115.5%; padding-top: 55px;   /* resolutionFHD:1920x1080  top:-17px;  height:1042px; max-height:1042px; padding-top: 55px; | Resolution1768x717 top:-1%;  height:115.5%; max-height:115.5%; padding-top: 55px; */
   border-radius:0;
   box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47; 
   -webkit-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
@@ -402,7 +412,7 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
 .tabledroite { /* valable pour acueil.php, ecritureBD.php , et ecritureBD.php */
 
   position:absolute; left:54%;   width:47.3%; 
-  top:-17px;  height:1042px; /* |  Test fait en FHD: 1920x1080 px  */  
+  top:-1%;  height:115.5%; /* resolutionFHD:1920x1080  top:-17px;  height:1042px;| Resolution1768x717 top:-1%;  height:115.5%;  */  
   border-radius:0px 0px 20px 0px;
    	-webkit-border-radius: 0px 0px 20px 0px;
 	-moz-border-radius: 0px 0px 20px 0px;
