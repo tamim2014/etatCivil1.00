@@ -372,6 +372,8 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
   z-index:2;
   /* border: 3px solid #e5eecc; */
 }
+
+
 .tablecentre
 {
   position:absolute; left:35.5%;   width:18%; 
@@ -402,6 +404,23 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
 .tabledroiteresultat{ /* lectureBD.php et lectureBD2.php */
   position:absolute; left:100px;  top:-16px; z-index:2; height:606px; width:570px;/* ct width:550px; */
   box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47; 
+}
+
+@media screen and (max-width: 992px) {
+  .tablegauche {
+    top: 146px; height:994px;
+  }
+  /* top:-17px;  height:606px; padding-top: 55px;  max-height:606px;  */
+    .tablecentre {
+    top: -34px; height:1332px; padding-top: 110px;  max-height:1512px;
+  }
+  /* top:-17px;  height:606px; */
+    .tabledroite {
+    top: -34px; height:1332px;
+  }
+  
+
+  
 }
 
 
@@ -462,6 +481,8 @@ div#commandePanel {height:30px;}
 /*PANEAU DE GAUCHE */ 
 
 /*PANEAU DE DROITE */  
+
+
 		
 
 			
