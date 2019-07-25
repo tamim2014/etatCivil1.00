@@ -69,6 +69,7 @@ session_start();
  <script src="js/jquery.js"></script>
 
  <link rel="stylesheet"  href="css/accueil.css" />
+ 
  <!-- ||||| i fo placer le mediaquery APRES le lien normal SINON CA MARCHE PAS |||||| -->
  
  <!-- |||||en dessous de (max-width: 1366px) ca charge pas. Donc pour cet ecran Lenovo L450   LARGEUR=1366px ||||||||| --> 

@@ -221,7 +221,7 @@ button      {
 }
 
 .hollowBottom  { 
-			  background:silver;  /* #93A299; #e5eecc;  #1D702D; */ 
+			  background:red;  /* #93A299; #e5eecc;  #1D702D; */ 
 			  position:absolute;  left:12.3%; top:41.6%; margin:10px;  width:73%; height:64%; /* left:165px; left:12.3%; top:260px;  top:41.6%; height:400px; height:64%; */
 			  border-radius:20px;
 			  z-index:2;
