@@ -340,16 +340,14 @@ button      {
 .centrer
 {
   position: absolute;
-    left: 5%;  /* 27.98%; 5%;   */
+    left: 5%;  /* 27.98%;    */
 	padding-left:0px;
     top:  8.5%;  /*  top:  8.5%;   */
 	 
 	text-align:center;
 	float:left;
 	
-	width:80%;
-	
-	
+	width:80%
 	
 	
 	
@@ -408,22 +406,7 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
   box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47; 
 }
 
-@media screen and (max-width: 992px) {
-  .tablegauche {
-    top: 146px; height:994px;
-  }
-  /* top:-17px;  height:606px; padding-top: 55px;  max-height:606px;  */
-    .tablecentre {
-    top: -34px; height:1332px; padding-top: 110px;  max-height:1512px;
-  }
-  /* top:-17px;  height:606px; */
-    .tabledroite {
-    top: -34px; height:1332px;
-  }
-  
 
-  
-}
 
 
 

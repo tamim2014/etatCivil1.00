@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+
+ 
+</head>  
+
+<body >
+    
+    
+    <div style="Background-color:black; width:100%;  color:white;">
+	   Largeur = 100%	     
+	</div>
+
+
+	<br>
+	<div style="Background-color:black; width:1366px ;  color:white;">
+	
+	   Largeur= 1366px     =>  1350px = 100% sur mon ecran ( Lenovo L450 )	     
+	</div>
+	
+	<h1> i fo utiliser les media query pour savoir les dimension de ton ecran </h1>
+	<hr>
+	<code>
+	    <pre>
+			 ||||| i fo placer le mediaquery avant le lien normal |||||| 
+	 
+			 |||||en dessous de (max-width: 1366px) ca charge pas. Donc pour cet ecran Lenovo L450   LARGEUR=1366px  
+			 |||||en remplacant max-width par max-height je trouve           pour this Lenovo L450   HAUTEUR=625px 
+			 
+			 link rel="stylesheet" media="screen and (max-width:1366px)" href="css/accueil-petit-ecran.css"
+             <link rel="stylesheet" media="screen and (max-width:1366px)" href="css/accueil-petit-ecran.css" >			 
+		</pre>
+	</code>
+	<hr>
+	
+
+	
+   
+
+</body>
+</html>
