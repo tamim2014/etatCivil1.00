@@ -217,7 +217,7 @@ button      {
 
 .hollowBottom  { 
 			  background: silver;  /* #93A299; #e5eecc;  #1D702D; */ 
-			  position:absolute;  left:12.3%; top:41.6%; margin:10px;  width:73%;  /* left:165px; left:12.3%; top:260px;  top:41.6%; height:400px;  */
+			  position:absolute;    margin:10px;   /*width:73%; left:165px; left:12.3%; top:260px;  top:41.6%; height:400px;  */
 			  border-radius:20px;
 			  z-index:2;
 			/* EFFET CREUX */
@@ -230,7 +230,8 @@ button      {
 				0px 2px 2px 0px rgba(0, 0, 0, 0.5),
 				0px 2px 2px 0px rgba(255, 255, 255, 0.5) inset; 
 			*/ 
-             top:11%; height:64%;	 /* Resolution1920x1080 top:11%; height:64%; | resolution1768x717  top:41.6%; height:73%; */
+			 left:12.6%; width:72.5%;  /* Resolution1920x1080 left:12.6%; width:72.5%; |resolution1768x717  top:41.6%; left:12.3%; width:73%;  */
+             top:42%; height:66%;	 /* Resolution1920x108  top:42%; height:66%; top:11%; height:64%; | resolution1768x717  top:41.6%; height:73%; */
 }
 @media all and (max-width: 1768px)  and (max-height: 717px)
 {
@@ -381,7 +382,7 @@ button      {
 	float:left;
 	
 	width:80%;	
-	bottom:2%;  	
+	bottom:2%; /* sans bottom impossible de relativiser la taille en hateur ( sauf si la hauteur du conteneur est defini) */ 	
 }
 
 /****seulement pour Firefox et Netscape  mais ça marche pas ******************
@@ -392,7 +393,7 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
 
 .tablegauche
 {
-  position:absolute; left:10.2%; width: 25%;
+  position:absolute; 
    
   border-radius:20px 0px 0px 20px;
 	-webkit-border-radius: 20px 0px 0px 20px;
@@ -403,7 +404,8 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
   -moz-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
   z-index:2;
   /* border: 3px solid #e5eecc; */
-  top: 228px;; height:677px; /*resolutionFHD:1920x1080  top: 228px; height:677px; | Resolution1768x717  top: 16%; height:80%;  */   
+  left:10.5%;  width: 24%; /* resolutionFHD:1920x1080  left:10.5%;  width: 24%; | Resolution1768x717  left:10.2%; width: 25%;    */ 
+  top: 24%; height:72%;   /*  resolutionFHD:1920x1080  top: 24%; height:72%; | Resolution1768x717  top: 16%; height:80%;    */   
 }
 @media all and (max-width: 1768px)  and (max-height: 717px)
 {
@@ -416,14 +418,15 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
 
 .tablecentre
 {
-  position:absolute; left:35.5%;   width:18%; 
+  position:absolute; 
   border-radius:0;
   box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47; 
   -webkit-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
   -moz-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
   z-index:2;
   /* border: 3px solid #e5eecc; */ 
-  top:-17px;  height:1042px; max-height:1042px; padding-top: 55px; /* resolutionFHD:1920x1080  top:-17px;  height:1042px; max-height:1042px; padding-top: 55px; | Resolution1768x717 top:-1%;  height:115.5%; max-height:115.5%; padding-top: 55px; */  
+  left:35.3%;   width:17%; /* resolutionFHD:1920x1080   left:35.3%;   width:17%;      | Resolution1768x717 left:35.5%;   width:18%; */
+  top:0;  height:108.2%; max-height:108.2%; padding-top: 55px; /* resolutionFHD:1920x1080  top:0;  height:108.2%; max-height:108.2%; padding-top: 55px; | Resolution1768x717 top:-1%;  height:115.5%; max-height:115.5%; padding-top: 55px; */  
 }
 @media all and (max-width: 1768px)  and (max-height: 717px)
 {
@@ -434,7 +437,7 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
 }
 .tabledroite { /* valable pour acueil.php, ecritureBD.php , et ecritureBD.php */
 
-  position:absolute; left:54%;   width:47.3%;  
+  position:absolute;  
   border-radius:0px 0px 20px 0px;
    	-webkit-border-radius: 0px 0px 20px 0px;
 	-moz-border-radius: 0px 0px 20px 0px;
@@ -444,7 +447,8 @@ html:not([lang*=“”]) .centrer { position: absolute; top:48px; }
   -moz-box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47;
   z-index:2;
   /* border: 3px solid #e5eecc; */ 
-  top:-17px;  height:1042px; /* resolutionFHD:1920x1080  top:-17px;  height:1042px;| Resolution1768x717 top:-1%;  height:115.5%;  */   
+  left:53.13%;   width:47.61%; /* resolutionFHD:1920x1080   left:53.13%;   width:47.61%;       | Resolution1768x717 left:54%;   width:47.3% */
+  top:0;  height:108.2%; /* resolutionFHD:1920x1080 top:0;  height:108.2%;  | Resolution1768x717 top:-1%;  height:115.5%; left:54%;   width:47.3%;  */   
 }
 @media all and (max-width: 1768px)  and (max-height: 717px)
 {
