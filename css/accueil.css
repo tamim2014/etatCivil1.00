@@ -516,7 +516,7 @@ input#nouveaudocument:hover , #listdocument:hover  {
 div#commandePanel {height:30px;}
 
  
-//22.12.15 JE T'AIME MOI AUSSI(sab à konaté 0634251545)
+/* 22.12.15 JE T'AIME MOI AUSSI(sab à konaté 0634251545) */
 
 /*Styles de la page lectureBD_menu( appelee par le bouon Liste acte de naissance de la page d'accueil)*/
  
@@ -524,6 +524,13 @@ div#commandePanel {height:30px;}
 /*PANEAU DE GAUCHE */ 
 
 /*PANEAU DE DROITE */  
+
+/*
+Attention1!!!
+
+MEDIA QUERY: il faut tjrs traiter les grand ecran avant les petits. cad les petis doivent etres en bas de page
+SINON la definition des grand s appliquera au petit. ce qui fait K.O
+*/
 
 
 		
