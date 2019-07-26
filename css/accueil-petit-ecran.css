@@ -467,14 +467,63 @@ input#nouveaudocument:hover , #listdocument:hover  {
 div#commandePanel {height:30px;}
 
  
-//22.12.15 JE T'AIME MOI AUSSI(sab à konaté 0634251545)
+/*  22.12.15 JE T'AIME MOI AUSSI(sab à konaté 0634251545)  */
 
-/*Styles de la page lectureBD_menu( appelee par le bouon Liste acte de naissance de la page d'accueil)*/
+/****************************************************************************************************************
+*
+*  27.07.2019                      MEDIA QUERY
+*
+* Attention1!!!
+*
+* MEDIA QUERY: il faut tjrs traiter les grand ecran avant les petits. cad les petis doivent etres en bas de page
+*
+* SINON la definition des grand s appliquera au petit. ce qui fait K.O
+*
+****************************************************************************************************************/ 
+
+
+
+/* Branche 100% = 100% du Lenovo L450(1366x625)    */
+
+
+@media all and (max-width: 1326px)  and (max-height: 538px) /*   */
+{
+	
+	.hollowBottom 
+    {
+	  
+	  left:12.3%; width:73%;	
+      top:46.5%; height:75.5%; 
+    }
+
+    .closeLowerMargin 
+    {
+		
+        top:11%; height:115.5%;
+    }
+	
+	.line1
+    {
+		top:20%;        
+    }
+
+    .line2
+    {
+		
+        top:32%;
+    }
+	
+	.line3
+    {
+		top:43%;
+        
+    }
+	
+}
+
+
  
 
-/*PANEAU DE GAUCHE */ 
-
-/*PANEAU DE DROITE */  
 
 
 		
