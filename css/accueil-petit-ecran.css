@@ -473,6 +473,9 @@ div#commandePanel {height:30px;}
 *
 *  27.07.2019                      MEDIA QUERY
 *
+*  Branche 100% = Ecran 1326x538= Lenovo L450(1366x625) x 100/100 
+*  Branche z150% = Ecran 844x358= Lenovo L450(1366x625) x 100/150 
+*  
 * Attention1!!!
 *
 * MEDIA QUERY: il faut tjrs traiter les grand ecran avant les petits. cad les petis doivent etres en bas de page
@@ -483,8 +486,7 @@ div#commandePanel {height:30px;}
 
 
 
-/* Branche 100% =1326x538= 100% du Lenovo L450(1366x625)    */
-
+/* Branche 100% = Ecran 1326x538= Lenovo L450(1366x625) x 100/100   */
 
 @media all and (max-width: 1326px)  and (max-height: 538px) 
 {
@@ -520,6 +522,67 @@ div#commandePanel {height:30px;}
     }
 	
 }
+
+/* Branche z150% = Ecran 844x358= Lenovo L450(1366x625) x 100/150    */
+
+@media all and (max-width: 884px)  and (max-height: 358px) 
+{
+	
+	.hollowBottom 
+    {
+	  background-color: red;
+	  left:12.3%; width:73%;	
+	  top:70%; /* regler l espace entre le drapeau et la tablegauche: pour le scripto+le cachet */
+	  height:102%; 
+	}
+
+
+	.closeLowerMargin 
+    {
+		
+		top:14%; 
+		height:172%; /* regler le footer */
+	}
+	
+
+	.tablegauche
+	{
+		top:15%;
+		height: 111.5%;
+
+		margin-left: 1%;
+		width:15%;
+	}
+
+	.tablecentre
+	{		
+		height: 181.5%;
+	}
+	
+	.tabledroite
+	{		
+		height: 181.5%;
+		margin-left: 0.7%;
+	}	
+
+	.line1
+    {
+		top:32%;        
+    }
+
+    .line2
+    {
+		
+        top:48%;
+    }
+	
+	.line3
+    {
+		top:65%;
+        
+    }
+
+}	
 
 
  
