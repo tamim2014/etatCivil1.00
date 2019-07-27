@@ -77,7 +77,7 @@ session_start();
  <!-- |||||en remplacant max-width par max-height je trouve           pour this Lenovo L450   HAUTEUR=625px  ||||||||| -->
  
  <link rel="stylesheet" media="screen and (max-width: 1366px)" href="css/accueil-petit-ecran.css" /> 
- <link rel="stylesheet" media="screen and (max-width: 875px)" href="css/accueil-petit-ecran-menucentral.css" />  
+ <link rel="stylesheet" media="screen and (max-width: 875px)" href="css/accueil-menucentral-petitecran.css" />  
  
  <link href="css/slide.css" rel="stylesheet" title="Style" />
 
