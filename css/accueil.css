@@ -500,6 +500,7 @@ div#commandePanel {height:30px;}
 {
     .hollowBottom 
     {
+	  background-color:black;
 	  left:12.3%; width:73%;	
       top:41.6%; height:73%; 
     }

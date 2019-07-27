@@ -491,7 +491,7 @@ div#commandePanel {height:30px;}
 	
 	.hollowBottom 
     {
-	  
+	  background-color:red;
 	  left:12.3%; width:73%;	
       top:46.5%; height:75.5%; 
     }
