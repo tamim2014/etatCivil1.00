@@ -530,7 +530,7 @@ div#commandePanel {height:30px;}
 	
 	.hollowBottom 
     {
-	  background-color: red;
+	  background-color: silver;
 	  left:12.3%; width:73%;	
 	  top:70%; /* 70% regler l espace entre le drapeau et la tablegauche: pour le scripto+le cachet */
 	  height:102%; 
