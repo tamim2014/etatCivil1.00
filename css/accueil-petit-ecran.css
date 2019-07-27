@@ -532,7 +532,7 @@ div#commandePanel {height:30px;}
     {
 	  background-color: red;
 	  left:12.3%; width:73%;	
-	  top:70%; /* regler l espace entre le drapeau et la tablegauche: pour le scripto+le cachet */
+	  top:70%; /* 70% regler l espace entre le drapeau et la tablegauche: pour le scripto+le cachet */
 	  height:102%; 
 	}
 
@@ -547,8 +547,8 @@ div#commandePanel {height:30px;}
 
 	.tablegauche
 	{
-		top:15%;
-		height: 111.5%;
+		top:34%; /* 34%; */
+		height: 111.5%;  /* 111.5%;*/
 
 		margin-left: 1%;
 		width:15%;
@@ -567,20 +567,44 @@ div#commandePanel {height:30px;}
 
 	.line1
     {
-		top:32%;        
+		top:33%;        
     }
 
     .line2
     {
 		
-        top:48%;
+        top:49%;
     }
 	
 	.line3
     {
 		top:65%;
         
-    }
+	}
+
+	/* Reglages <caption> de tablegauche */
+
+	body div.centrer form  table.tablegauche  caption  font h3 
+    {		
+		font-size:80%;   /* UNION DES COMORES    */		     		
+	}
+	
+	body div.centrer form  table.tablegauche  caption  font h6 
+    {		
+	    font-size:50%;  /* Unite-solidarite-developpement     */     		
+	}
+	
+		body div.centrer form  table.tablegauche  caption  font h4 
+    {		
+		font-size:62%; /* MINISTERE DE L'INTERIEUR     */     		
+	}
+	
+	
+	body div.centrer form  table.tablegauche  caption  img
+    {		
+	    width:50%; height:50%  /*   armoirerie  */     		
+	}
+
 
 }	
 
