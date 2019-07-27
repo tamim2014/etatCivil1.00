@@ -2,13 +2,13 @@
 HAUTEUR Lenovo L450 = 625 px
 LARGEUR Lenovo L450 = 1366 px
 
-Couleurs utilisées:
+Couleurs utilisï¿½es:
 
 - peru et silver(pour les BD)
 - #cdbe9f et #e5eecc(pour les background-color)
 - si ces ne ressortent pas les caracteres blancs: Utliser background-color: #99993F;
 ___________________________________________________
-Les préfixes vendeurs
+Les prï¿½fixes vendeurs
 -o- pour Opera
 -moz- pour Gecko (Mozilla)
 -webkit- pour Webkit (Chrome, Safari, Android...)
@@ -118,9 +118,9 @@ table.color_line tr:nth-child(2n+1) td {
 			  display: block;  
 			}
 
-/*  Reduction hauteur table d'affichage resultat(lectureBD2.php)suite à une action sur le moteur de recherche de la page d'accueil*/
+/*  Reduction hauteur table d'affichage resultat(lectureBD2.php)suite ï¿½ une action sur le moteur de recherche de la page d'accueil*/
 .color_line_short { position:absolute; z-index:2;  left:310px;  right:40px; top:114px;    height:60px; width:523px;   
-              /* Pour limiter lataille du conteneur overflow:  auto; sinon il va s'adapter à la taille du contenu */ 
+              /* Pour limiter lataille du conteneur overflow:  auto; sinon il va s'adapter ï¿½ la taille du contenu */ 
 			  background-color: #e5eecc;
 			  white-space:nowrap;
 			   
@@ -128,7 +128,7 @@ table.color_line tr:nth-child(2n+1) td {
 			  -moz-box-shadow: 1px 1px 0px 0px green;
 			  -webkit-box-shadow: 1px 1px 0px 0px green;
 			
-			  /* Pour adapter  la taille de la table à son div conteneur i fo retirer   display: block; */ 
+			  /* Pour adapter  la taille de la table ï¿½ son div conteneur i fo retirer   display: block; */ 
 			}
   
 input ,select {
@@ -362,8 +362,8 @@ button      {
 	
 }
 
-/****seulement pour Firefox et Netscape  mais ça marche pas ******************
-html:not([lang*=“”]) .centrer { position: absolute; top:48px; }  
+/****seulement pour Firefox et Netscape  mais ï¿½a marche pas ******************
+html:not([lang*=ï¿½ï¿½]) .centrer { position: absolute; top:48px; }  
 *****************************************************************************/
 
 /* support des panneaux - "les matelas" ou "les savons" ... tu les apl comme tu veux! */
@@ -437,7 +437,7 @@ text-shadow: 2px 2px #beae8c;
 a.nouveaudocument:hover , .listdocument:hover { background-color: green; color:green ;    }
 
    un effet creux sur les items menu central au survol de la souris
-   -> J'obtients plutôt un effet cube, mais je prends car je le trouve original   
+   -> J'obtients plutï¿½t un effet cube, mais je prends car je le trouve original   
 */
  
  
@@ -467,7 +467,7 @@ input#nouveaudocument:hover , #listdocument:hover  {
 div#commandePanel {height:30px;}
 
  
-/*  22.12.15 JE T'AIME MOI AUSSI(sab à konaté 0634251545)  */
+/*  22.12.15 JE T'AIME MOI AUSSI(sab ï¿½ konatï¿½ 0634251545)  */
 
 /****************************************************************************************************************
 *
