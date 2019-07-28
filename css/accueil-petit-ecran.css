@@ -483,10 +483,10 @@ div#commandePanel {height:30px;}
 
 
 
-/* Branche 100% = 100% du Lenovo L450(1366x625)    */
+/* Branche 100% =1326x538= 100% du Lenovo L450(1366x625)    */
 
 
-@media all and (max-width: 1326px)  and (max-height: 538px) /*   */
+@media all and (max-width: 1326px)  and (max-height: 538px) 
 {
 	
 	.hollowBottom 
