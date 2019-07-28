@@ -527,8 +527,50 @@ div#commandePanel {height:30px;}
 }
 
 /* Branche z125% = Ecran 1060x430= Lenovo L450(1366x625) x 100/125    */
+/* __________________________________________________________________________ */
 
-@media all and (max-width: 1060px) 
+@media all and (max-width: 1060px)   
+{
+	
+
+
+	.hollowBottom 
+    {
+	  
+	  left:12.3%; width:73%;	
+      top:46.5%; height:75.5%; 
+    }
+
+    .closeLowerMargin 
+    {
+		
+        top:11%; height:115.5%;
+    }
+	
+	.line1
+    {
+		top:20%;        
+    }
+
+    .line2
+    {
+		
+        top:32%;
+    }
+	
+	.line3
+    {
+		top:43%;
+        
+    }
+	
+	
+}
+
+
+/* Branche z150% = Ecran 844x358= Lenovo L450(1366x625) x 100/150    */
+
+@media all and (max-width: 844px) 
 {
 	
 	.hollowTop

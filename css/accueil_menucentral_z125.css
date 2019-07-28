@@ -1,0 +1,121 @@
+
+/* Regle de base calcul position : top1+17=top2; top1-17=top3  - ensuite quelque ajustement si necessaire */
+p.p1 a input.p11
+{
+    position:absolute; left:100%;   padding:5px ;   height: 15px;   font-size: 10px;   top:-20px; 
+           
+}
+p.p1 a input.p12
+{
+    position:absolute; left:100%;   padding:5px ;   height: 15px;   font-size: 10px;   top:-3px;       
+}
+
+p.p2 a input.p21
+{
+    position:absolute; left:100%;   padding:5px ;   height: 15px;   font-size: 10px;   top:-37px; 
+           
+}
+p.p2 a input.p22
+{
+    position:absolute; left:100%;   padding:5px ;   height: 15px;   font-size: 10px;   top:-21px;       
+}
+
+/* A partir d'ici on fait (-20px a peu pres) pour le prochain couple et on le separe tjrs par (+16px) a qu*/
+
+p.p3 a input.p31
+{
+    position:absolute; left:100%;   padding:5px ;   height: 15px;   font-size: 10px;   top:-64px; /* top:-54px;   */          
+}
+p.p3 a input.p32
+{
+    position:absolute; left:100%;   padding:5px ;   height: 15px;   font-size: 10px;   top:-48px; /* top:-37px;   */        
+}
+
+
+
+p.p4 a input.p41
+{
+    position:absolute; left:100%;   padding:5px ;   height: 15px;   font-size: 10px;   top:-84px;     /* top:-81px;    */       
+}
+p.p4 a input.p42
+{
+    position:absolute; left:100%;   padding:5px ;   height: 15px;   font-size: 10px;   top:-68px;   /*  top:-64px;    */     
+}
+
+
+
+p.p5 a input.p51
+{
+    position:absolute; left:100%;   padding:5px ;   height: 15px;   font-size: 10px;   top:-106px;           
+}
+p.p5 a input.p52
+{
+    position:absolute; left:100%;   padding:5px ;   height: 15px;   font-size: 10px;   top:-90px;       
+}
+
+
+
+p.p6 a input.p61
+{
+    position:absolute; left:100%;   padding:5px ;   height: 15px;   font-size: 10px;   top:-130px;           
+}
+p.p6 a input.p62
+{
+    position:absolute; left:100%;   padding:5px ;   height: 15px;   font-size: 10px;   top:-114px;       
+}
+
+
+
+p.p7 a input.p71
+{
+    position:absolute; left:100%;   padding:5px ;   height: 15px;   font-size: 10px;   top:-162px;            
+}
+p.p7 a input.p72
+{
+    position:absolute; left:100%;   padding:5px ;   height: 15px;   font-size: 10px;   top:-146px;       
+}
+
+
+
+p.p8 a input.p81
+{
+    position:absolute; left:100%;   padding:5px ;   height: 15px;   font-size: 10px;   top:-195px;          
+}
+p.p8 a input.p82
+{
+    position:absolute; left:100%;   padding:5px ;   height: 15px;   font-size: 10px;    top:-179px;        
+}
+
+input 
+{
+    border-radius:2px;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    -khtml-border-radius:2px;
+    width:100px; 
+    font-size: 1px;
+    
+}
+
+
+.nouveaudocument , .listdocument 
+{ 
+    display:block; 
+    float:left; 
+    margin-left:20px; 
+}
+
+
+input#nouveaudocument:hover , #listdocument:hover  { 
+    color:green ; 
+    padding-top:1%; padding-bottom:1%; 
+    background-color: #cdbe7f;  position:absolute; 
+    border-radius:2px;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    -khtml-border-radius:2px;
+    
+    box-shadow:
+        0px 2px 2px 0px rgba(0, 0, 0, 0.5) inset,
+        0px 2px 2px 0px rgba(255, 255, 255, 0.5);
+}
