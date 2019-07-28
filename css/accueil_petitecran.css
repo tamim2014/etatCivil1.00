@@ -371,7 +371,8 @@ html:not([lang*=��]) .centrer { position: absolute; top:48px; }
 /* support des panneaux - "les matelas" ou "les savons" ... tu les apl comme tu veux! */
 .tablegauche
 {
-  position:absolute; left:10.2%; width: 25%;
+  position:absolute; 
+  left:10.2%; width: 25%;
   top: 73px; height:397px; /* ces parametres vont changer pour les ecran>1366px */    
   border-radius:20px 0px 0px 20px;
 	-webkit-border-radius: 20px 0px 0px 20px;
@@ -387,7 +388,8 @@ html:not([lang*=��]) .centrer { position: absolute; top:48px; }
 
 .tablecentre
 {
-  position:absolute; left:35.5%;   width:18%; 
+  position:absolute; 
+  left:35.5%;   width:18%; 
   top:-17px;  height:606px; padding-top: 55px;  max-height:606px; /* ces parametres vont changer pour les ecran>1366px  */
   border-radius:0;
   box-shadow: 0 0 65px #cdbe9f inset, 0 0 20px #beae8c inset, 0 0 5px #816f47; 
@@ -526,20 +528,112 @@ div#commandePanel {height:30px;}
 	
 }
 
+/* Branche z125% = Ecran 1060x430= Lenovo L450(1366x625) x 100/125    */
+/* __________________________________________________________________________ */
+
+@media all and (max-width: 1060px)   
+{
+	
+    #office 
+	{	  
+	   margin-left: 70px; /* ecrito "OFFICE" sur le hollowTop */
+	}
+
+	.hollowBottom 
+    {
+	     background-color:red;
+	     left:12.3%; width:73%;	
+         top:49%; 
+	     height:75.5%; 
+    }
+	
+	    .closeLowerMargin 
+    {
+		
+        top:11%; /*   height:11%;*/
+		height:215.5%; /* regler le footer - l'agrandir pour y placer si besoin, quelques infos utiles */
+    }
+	
+	.tablegauche 
+	{
+		 left:10.8%;    /* left:10.2%;  */
+		 width: 24%;    /* width: 25%;  */
+         top: 22%;     
+		 height:82%;  		
+	}
+	
+	.tablecentre 
+	{
+		top:0;    /* top:-17px;  */
+		height:123.8%;  /*  height:606px; */		  
+	}
+	
+	.tabledroite 
+	{
+		top:0;    
+		height:123.8%;  		  
+	}
+
+
+
+	.line1
+    {
+		top:23%;        
+    }
+
+    .line2
+    {
+		
+        top:35%;
+    }
+	
+	.line3
+    {
+		top:46%;
+        
+    }
+	
+	/* Reglages <caption> de tablegauche */
+
+	body div.centrer form  table.tablegauche  caption  font h3 
+    {		
+		font-size:80%;   /* UNION DES COMORES    */		     		
+	}
+	
+	body div.centrer form  table.tablegauche  caption  font h6 
+    {		
+	    font-size:50%;  /* Unite-solidarite-developpement     */     		
+	}
+	
+		body div.centrer form  table.tablegauche  caption  font h4 
+    {		
+		font-size:62%; /* MINISTERE DE L'INTERIEUR     */     		
+	}
+	
+	
+	body div.centrer form  table.tablegauche  caption  img
+    {		
+	      width:30%; height:70% /*  armoirerie  */     		
+	}
+	
+	
+}
+
+
 /* Branche z150% = Ecran 844x358= Lenovo L450(1366x625) x 100/150    */
 
-@media all and (max-width: 884px)  and (max-height: 358px) 
+@media all and (max-width: 844px) 
 {
 	
 	.hollowTop
 	{
 		border-radius: 10px;
+		background-color: red;
 
 	}
 
 	#office 
-	{
-	  
+	{	  
 	   margin-left: 40px; /* ecrito "OFFICE" sur le hollowTop */
 	}
 	

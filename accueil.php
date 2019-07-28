@@ -76,8 +76,9 @@ session_start();
  <!-- |||||en dessous de (max-width: 1366px) ca charge pas. Donc pour cet ecran Lenovo L450   LARGEUR=1366px ||||||||| --> 
  <!-- |||||en remplacant max-width par max-height je trouve           pour this Lenovo L450   HAUTEUR=625px  ||||||||| -->
  
- <link rel="stylesheet" media="screen and (max-width: 1366px)" href="css/accueil-petit-ecran.css" /> 
- <link rel="stylesheet" media="screen and (max-width: 884px)" href="css/accueil-menucentral-petitecran.css" />  
+ <link rel="stylesheet" media="screen and (max-width: 1366px)" href="css/accueil_petitecran.css" /> 
+ <link rel="stylesheet" media="screen and (max-width: 1060px)" href="css/accueil_menucentral_z125.css" /> 
+ <link rel="stylesheet" media="screen and (max-width: 884px)"  href="css/accueil_menucentral_z150.css" /> <!-- <link rel="stylesheet" media="screen and (max-width: 884px)" href="css/accueil-menucentral-petitecran.css" />  -->   
  
  <link href="css/slide.css" rel="stylesheet" title="Style" />
 
