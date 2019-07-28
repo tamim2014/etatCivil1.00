@@ -624,86 +624,65 @@ div#commandePanel {height:30px;}
 
 @media all and (max-width: 844px) 
 {
-	
-	.hollowTop
-	{
-		border-radius: 10px;
-		background-color: red;
-
-	}
-
-	#office 
+	    #office 
 	{	  
-	   margin-left: 40px; /* ecrito "OFFICE" sur le hollowTop */
-	}
-	
-	.flag
-	{
-		
-		border-radius: 10px 0 0 10px; /* le drapeau a gauche du  hollowTop */
-
+	   margin-left: 70px; /* ecrito "OFFICE" sur le hollowTop */
 	}
 
 	.hollowBottom 
     {
-<<<<<<< HEAD
-	  background-color: silver;
-=======
-	  background-color:silver;
->>>>>>> z150-menucentral
-	  left:12.3%; width:73%;	
-	  top:70%; /* 70% regler l espace entre le drapeau et la tablegauche: pour le scripto+le cachet */
-	  height:102%; 
-	}
-
-
-
-
-	.closeLowerMargin 
+	  
+	     left:12.3%; width:73%;	
+         top:49%; 
+	     height:75.5%; 
+    }
+	
+	    .closeLowerMargin 
     {
 		
-		top:14%; 
-		height:172%; /* regler le footer */
-	}
+        top:11%; /*   height:11%;*/
+		height:215.5%; /* regler le footer - l'agrandir pour y placer si besoin, quelques infos utiles */
+    }
 	
-
-	.tablegauche
+	.tablegauche 
 	{
-		top:35.2%; /* 34%; */
-		height: 111.5%;  /* 111.5%;*/
-
-		margin-left: 1%;
-		width:15%; /* width:15%; */
-	}
-
-	.tablecentre
-	{		
-		height: 181.5%;
+		 left:10.8%;    /* left:10.2%;  */
+		 width: 24%;    /* width: 25%;  */
+         top: 22%;     
+		 height:82%;  		
 	}
 	
-	.tabledroite
-	{		
-		height: 181.5%;
-		margin-left: 0.7%;
-	}	
+	.tablecentre 
+	{
+		top:0;    /* top:-17px;  */
+		height:123.8%;  /*  height:606px; */		  
+	}
+	
+	.tabledroite 
+	{
+		top:0;    
+		height:123.8%;  		  
+	}
+
+
 
 	.line1
     {
-		top:33%;        
+		top:23%;        
     }
 
     .line2
     {
 		
-        top:49%;
+        top:35%;
     }
 	
 	.line3
     {
-		top:65%;
+		top:46%;
         
-	}
-
+    }
+	
 	/* Reglages <caption> de tablegauche */
 
 	body div.centrer form  table.tablegauche  caption  font h3 
@@ -724,9 +703,9 @@ div#commandePanel {height:30px;}
 	
 	body div.centrer form  table.tablegauche  caption  img
     {		
-	    width:50%; height:50%  /*   armoirerie  */     		
+	      width:30%; height:70% /*  armoirerie  */     		
 	}
-
+	
 
 }	
 

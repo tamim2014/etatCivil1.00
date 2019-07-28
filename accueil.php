@@ -78,7 +78,7 @@ session_start();
  
  <link rel="stylesheet" media="screen and (max-width: 1366px)" href="css/accueil_petitecran.css" /> 
  <link rel="stylesheet" media="screen and (max-width: 1060px)" href="css/accueil_menucentral_z125.css" /> 
- <link rel="stylesheet" media="screen and (max-width: 884px)"  href="css/accueil_menucentral_z150.css" /> <!-- <link rel="stylesheet" media="screen and (max-width: 884px)" href="css/accueil-menucentral-petitecran.css" />  -->   
+ <!-- <link rel="stylesheet" media="screen and (max-width: 884px)"  href="css/accueil_menucentral_z150.css" /> -->   
  
  <link href="css/slide.css" rel="stylesheet" title="Style" />
 
