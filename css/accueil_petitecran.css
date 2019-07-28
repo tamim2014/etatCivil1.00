@@ -547,7 +547,7 @@ div#commandePanel {height:30px;}
 	     height:75.5%; 
     }
 	
-	    .closeLowerMargin 
+	.closeLowerMargin 
     {
 		
         top:11%; /*   height:11%;*/
@@ -620,9 +620,9 @@ div#commandePanel {height:30px;}
 }
 
 
-/* Branche z150% = Ecran 844x358= Lenovo L450(1366x625) x 100/150    */
+/* Branche z150% = Ecran 884x358= Lenovo L450(1366x625) x 100/150    */
 
-@media all and (max-width: 844px) 
+@media all and (max-width: 884px) 
 {
 	    #office 
 	{	  
@@ -630,14 +630,13 @@ div#commandePanel {height:30px;}
 	}
 
 	.hollowBottom 
-    {
-	  
+    {	     
 	     left:12.3%; width:73%;	
-         top:49%; 
-	     height:75.5%; 
+         top:51%; 
+	     height:74.5%; 
     }
 	
-	    .closeLowerMargin 
+	.closeLowerMargin 
     {
 		
         top:11%; /*   height:11%;*/
@@ -649,7 +648,7 @@ div#commandePanel {height:30px;}
 		 left:10.8%;    /* left:10.2%;  */
 		 width: 24%;    /* width: 25%;  */
          top: 22%;     
-		 height:82%;  		
+		 height:80.8%;  		
 	}
 	
 	.tablecentre 
@@ -661,25 +660,26 @@ div#commandePanel {height:30px;}
 	.tabledroite 
 	{
 		top:0;    
-		height:123.8%;  		  
+		height:123.8%; 
+        left:54.5%;		
 	}
 
 
 
 	.line1
     {
-		top:23%;        
+		top:24%;        
     }
 
     .line2
     {
 		
-        top:35%;
+        top:37%;
     }
 	
 	.line3
     {
-		top:46%;
+		top:47.5%;
         
     }
 	
@@ -703,7 +703,7 @@ div#commandePanel {height:30px;}
 	
 	body div.centrer form  table.tablegauche  caption  img
     {		
-	      width:30%; height:70% /*  armoirerie  */     		
+	      width:30%; height:80% /*  armoirerie  */     		
 	}
 	
 
