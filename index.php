@@ -10,11 +10,11 @@
  <style>
  
       * { box-sizing: border-box; }	
-      body {  margin:0; overflow-x: hidden ; }
-	
-	  .tablecentre{border-radius:10px 0 0 10px !important; z-index:3;}
-	  .tabledroite {left:290px; border-radius:0 10px 10px 0;}
-      .closeLowerMargin , .openLowerMargin {left:10%;} 
+       body {  margin:0; overflow-x: hidden ; }
+	  .tablegauche{ left:-18.938em;  top:4.563em;  height:24.813em;                     width:17.5em; right:12.5em; }
+	  .tablecentre{ left:0;          top:-1em;    height:37.875em; width:12.5em;    padding-top: 3.438em; border-radius:10px 0 0 10px; z-index:3;}
+	  .tabledroite{ left:12.5em;     top:-1em;    height:37.875em; width:23.125em;  border-radius:0 10px 10px 0;}
+      .closeLowerMargin , .openLowerMargin {left:5%; width:89%;} 
  </style>
 </head>
 

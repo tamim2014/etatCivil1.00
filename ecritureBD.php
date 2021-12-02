@@ -31,7 +31,7 @@
 
  <div class="centrer" >
  
-<form action ="SERVEUR/ecritureBD_insertionSQL" method="post" name="form1" >
+<form action ="SERVEUR/ecritureBD_insertionSQL.php" method="post" name="form1" >
     <!-- LE PANNEAU DE GAUCHE :  -->
          <?php include("inc/ecriture/ecritureBD_panodegauche.php"); ?>
     <!-- LE PANNEAU DE CENTRAL : -->
@@ -84,7 +84,7 @@
 		 <td style="text-align: left; margin-left:10px;"> <span style=" margin-left:13px;" >  Titre  recepteur</span></td>
 	 </tr>
 	 <tr> 
-	     <td> <input type="date" name="datejugement" placeholder=" date jugement :" style="height:15px;"> </td>
+	     <td> <input type="date" name="datejugement" placeholder=" date jugement : " style="height:15px;"> </td>
 		 <td style="text-align: left; margin-left:10px;"> <span style=" margin-left:13px;" >Date  jugement</span></td>
 	 </tr>
 	 <!-- je déplace ces élément à cause de firefox qui fait déborder la panneau droit(dépassement de 20 cm vers le bas)
