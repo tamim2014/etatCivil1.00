@@ -25,7 +25,7 @@
 //3.Affichage 
      //if($result){
 
-	 $table='<table  class="resultat_moteur"  >';
+	 $table='<table  class="resultat_moteur" style="left:42.11%; top:18%;"  >';
 	 $table.= '<tr ><th>ID</th><th>Nom </th><th> Prenom </th><th>Acte numero</th><th>Edit</th><th>Imprimer</th><th>Afficher</th></tr>';
 
 	 while ($donnees = mysqli_fetch_array($result) )  	 	 

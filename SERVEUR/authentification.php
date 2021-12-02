@@ -19,19 +19,19 @@ session_start();
 	$db->set_charset("utf8");
    
  
-  if(isset($_POST['pseudo_']))$login=$_POST['pseudo_'];
-  if(isset($_POST['motdepasse_']))$mdp=$_POST['motdepasse_'];
+  if(isset($_POST['pseudo_']))  $login = $_POST['pseudo_'];
+  if(isset($_POST['motdepasse_']))  $mdp = $_POST['motdepasse_'];
  
 	
 	$message = 'Veuillez vous identifier dans les deux champs ci-dessus';
 	// Le login est-il rempli ?
-    if(empty($login)&& isset($_POST["envoie"]) ) {$message = 'Veuillez indiquer votre nom svp !';}
+    if(empty($login) && isset($_POST["envoie"]) ) {$message = 'Veuillez indiquer votre nom svp !';}
    // Le mot de passe est-il rempli ?
     if(empty($mdp) && isset($_POST["envoie"]) ){$message = '  Veuillez aussi indiquer,  votre mot de passe SVP !';}
 	
-    if (!empty($login)&&!empty($mdp)){
+    if (!empty($login) && !empty($mdp)){
 	  $sql="SELECT COUNT(*) 
-	         FROM listeofficiers WHERE motdepasse = '" . mysqli_real_escape_string($db , $_POST['motdepasse_']) . "' AND pseudo = '" . mysqli_real_escape_string( $db , $_POST['pseudo_']) . "'";
+	          FROM listeofficiers WHERE motdepasse = '". mysqli_real_escape_string($db , $_POST['motdepasse_']) . "' AND pseudo = '" . mysqli_real_escape_string( $db , $_POST['pseudo_']) . "'"; 
 	  $req=mysqli_query($db ,$sql) or die('Erreur SQl !<br>'.$sql.'<br>'.mysqli_error($db));
 	 
 	  $result = mysqli_fetch_row($req);

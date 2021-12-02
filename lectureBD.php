@@ -11,12 +11,15 @@
 	 <script src="js/jquery.js"></script>
 	 <script src="js/capture_items.js"></script>    <!--    <script src="js/acteOutSlide.js"></script> -->
 	 <script src="js/lectureBD.js"></script>
-
 	 <link href="css/accueil.css" rel="stylesheet" title="Style" />
-
 	 <link href="css/lectureBD.css" rel="stylesheet" title="Style" />
-
- 
+	 <style>
+	         .hollowTop, .closeUpperMargin , .hollowBottom , .closeLowerMargin, .openLowerMargin , .line1 , .line2, .line3 { left:7%;}
+	          body {background-image: none; background-color:#bbb; 	padding-left:1em; padding-right:1em;}
+	         .mnayvawo{left:42.11%;}
+	         .tablegauche{ position:absolute;  left:-300px;  top:73px;    right:200px; height:397px; width:280px;  }
+	         .tabledroiteresultat{ position:absolute; left:19px;  top:-16px; z-index:2; height:606px; width:570px}
+	 </style>
 </head>
 
 <body>

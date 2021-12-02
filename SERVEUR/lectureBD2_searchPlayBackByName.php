@@ -8,7 +8,7 @@
 	//include("connection_PDO.php");
 	$BD_serveur = "localhost";
     $BD_utilisateur = "root";
-    $BD_motDePasse = "";// Ce mot de passe est enregistré dans la table "user" de la base "mysql" du serveur Mysql. Pour le modifier (en ligne de commande) aller dans la base mysql(table user): update user set Password="" where Host="localhost"; Puis verifier en faisant select User, Password, Host from user;
+    $BD_motDePasse = ""; // Ce mot de passe est enregistré dans la table "user" de la base "mysql" du serveur Mysql. Pour le modifier (en ligne de commande) aller dans la base mysql(table user): update user set Password="" where Host="localhost"; Puis verifier en faisant select User, Password, Host from user;
     $BD_base = "etatcivil";
 	$message='';
 	
@@ -16,9 +16,8 @@
 	$conn->set_charset("utf8");
 
    
-//1. Requête (SQL): On récupère tout le contenu de la table liste)
-    
-       //$requete = "SELECT * FROM liste WHERE acte=".$num." OR  nom=$nom'";
+//1. Requête (SQL): On récupère tout le contenu de la table liste)   
+      //$requete = "SELECT * FROM liste WHERE acte=".$num." OR  nom=$nom'";
       $requete = "SELECT * FROM liste WHERE   nom='". ltrim($nom)."'" ;	  	
 	  $result = mysqli_query($conn,$requete);    
 //2. Stockage dans une variable(PHP): $donnees = $reponse->fetch(); 
@@ -26,7 +25,7 @@
 //3.Affichage 
      //if($result){
 
-	 $table='<table  class="resultat_moteur"  >';
+	 $table='<table  class="resultat_moteur" style="left:42.11%; top:18%;"  >';
 	 $table.= '<tr ><th>ID</th><th>Nom </th><th> Prenom </th><th>Acte numero</th><th>Edit</th><th>Imprimer</th><th>Afficher</th></tr>';
 	 while ($donnees = mysqli_fetch_array($result) )  	 	 
 	 { 

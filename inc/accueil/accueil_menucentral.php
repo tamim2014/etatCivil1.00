@@ -2,12 +2,12 @@
  echo '
   
   <tr ><td > 
-  <p style="position:absolute; top:100px;" >
+  <p style="position:absolute; top:80px;" >
     <a href="ecritureBD.php" class="nouveaudocument" > <input id="nouveaudocument" type="button" name="accueil" value="Nouvel Acte naissance"   ></a><br>
     <a href="lectureBD.php" class="listdocument" > <input  id="listdocument" type="button"    name="accueil" value="Liste Actes naissance"  ></a>
   </p>
 	 
-  <p style="position:absolute; top:168px;" > <!-- remplissage de caractere invisible pour serre la marge entre les 2 imput pour chrome et opera -->
+  <p style="position:absolute; top:148px;" > <!-- remplissage de caractere invisible pour serre la marge entre les 2 imput pour chrome et opera -->
     <a href="#" class="nouveaudocument"> <input id="nouveaudocument" type="button" name="accueil" value="Marge de visibilié" style="color:#e5eecc;" ></a> <br>
 	 <a href="#" class="listdocument"> <input id="listdocument" type="button" name="accueil" value="Marge de visibilié"  style="color:#e5eecc;"  ></a> 
   </p>

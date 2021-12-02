@@ -78,51 +78,51 @@ session_start();
 	  <script src="assets/js/html5shiv.js"></script>
 	  <script src="assets/js/respond.min.js"></script>
 	<![endif]-->
+    <style>
+	         .hollowTop, .closeUpperMargin , .hollowBottom , .closeLowerMargin, .openLowerMargin , .line1 , .line2, .line3 { left:7%;}
+	          body {background-image: none; background-color:#bbb; 	padding-left:1em; padding-right:1em;}
+	         
+	         .tablegauche{ position:absolute; left:-303px;  top:73px;    right:200px; height:397px; width:280px;  }
+			 .tablecentre{ position:absolute; left:0;      top:5.5px;  height:606px; width:200px; border-radius:10px 0 0 10px; }
+			 .tabledroite{ position:absolute; left:200px;  top:5.5px;  height:606px; width:370px; border-radius:0 10px 10px 0;}
+	 </style>
 
  
 
 </head>
 
 <body>
-<!-- ARRIERE PLAN :  -->
+<!-- ARRIERE PLAN   -->
 <?php include("inc/accueil/accueil_background.php"); ?>
 
+<!-- Structure contenu   -->
+<div class="centrer"  >
+	<form action ="" method="POST" name="form1" >
 
- <div class="centrer"  >
-<form action ="" method="POST" name="form1" >
+		<!-- LE PANNEAU DE GAUCHE : Recher des document par numero ou nom -->
+		<table class="tablegauche" > <caption  style="caption-side:top;"> <font color="#FFFFFF"><h3> UNION DES COMORES  </h3><h6> Unit&eacute;-Solidarit&eacute;-D&eacute;veloppement  </h6><h4> MINISTERE DE L'INTERIEUR  </h4></font><img src="img/armoirie.png" style="z-index:3;"  /></caption>
+			 <tr> <td>RECHERCHE DE DOCUMENT</td></tr>
+			 <tr><td> <font color="#cdbe9f"><b>Search by</b></font> num&eacute;ro<br/> <input id="recherchenum" type="text" name="acte_" pattern=".{1,}"  > </td></tr> 
+			 <tr><td> <font color="#cdbe9f"><b>Search by</b></font> nom    <br/> <input id="recherchenom"  type="text" name="nom_"  > </td></tr>
+			 <tr><td>
+				 <textarea class="t_area" name="myTextBox" cols="18" rows="4"> <?php echo $message ; ?> </textarea>
+			 <br/><input type="submit" name="envoie" value="Chercher"  style="background-color: #e5eecc;"/>
 
-<!-- LE PANNEAU DE GAUCHE : Recher des document par numero ou nom -->
+			 </td></tr>
 
-  <table class="tablegauche" > <caption  style="caption-side:top;"> <font color="#FFFFFF"><h3> UNION DES COMORES  </h3><h6> Unit&eacute;-Solidarit&eacute;-D&eacute;veloppement  </h6><h4> MINISTERE DE L'INTERIEUR  </h4></font><img src="img/armoirie.png" style="z-index:3;"  /></caption>
-     <tr> <td>RECHERCHE DE DOCUMENT</td></tr>
-	 <tr><td> <font color="#cdbe9f"><b>Search by</b></font> num&eacute;ro<br/> <input id="recherchenum" type="text" name="acte_" pattern=".{1,}"  > </td></tr> 
-     <tr><td> <font color="#cdbe9f"><b>Search by</b></font> nom    <br/> <input id="recherchenom"  type="text" name="nom_"  > </td></tr>
-	 <tr><td>
-         <textarea class="t_area" name="myTextBox" cols="18" rows="4"> <?php echo $message ; ?> </textarea>
-     <br/><input type="submit" name="envoie" value="Chercher"  style="background-color: #e5eecc;"/>
-
-	 </td></tr>
-
- </table>
- 
-<!-- LE PANNEAU  CENTRAL : menu vertical (il serai + simple de mettre ce morceau de code dans un include  - voir le cours de Bezençon)-->
-
-
-
-<table  class="tablecentre"  ><caption style="caption-side:top;" > <font color="#FFFFFF"><h3> OFFICE   </h3></font></caption>
-
-	      <?php include("inc/accueil/accueil_menucentral.php"); ?>  
-</table>
+		</table>
+	 
+		<!-- LE PANNEAU  CENTRAL : menu vertical (il serai + simple de mettre ce morceau de code dans un include  - voir le cours de Bezençon)-->
+		<table  class="tablecentre"  >
+			<?php include("inc/accueil/accueil_menucentral.php"); ?>  
+		</table>
 
 
-<!-- LE PANNEAU DE DROITE : Recher des document par liste déroulante -->
-
-<table  class="tabledroite" ><caption style="caption-side:top"> <font color="#FFFFFF"><h3> D'ETAT CIVIL  </h3></font></caption>
- <tr><td class="listemenu"> <?php include("inc/accueil/accueil_prefecture.php"); ?> </td></tr> 
- 
-</table>
-</form>
-
+		<!-- LE PANNEAU DE DROITE : Recher des document par liste déroulante -->
+		<table  class="tabledroite" >
+			<tr><td class="listemenu"> <?php include("inc/accueil/accueil_prefecture.php"); ?> </td></tr> 
+		</table>
+	</form>
 </div>
 
 </body>

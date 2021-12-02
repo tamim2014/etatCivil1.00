@@ -13,19 +13,24 @@
 
  <script src="js/jquery.js"></script>
  <script src="js/ecritureBD.js"></script>
-
+ <style>
+   
+    body {background-image: url("img/etatcivil22.png"); background-color:#bbb; 	padding-left:1em; padding-right:1em;}
+    .tablegauche{ position:absolute;  left:-339px;  top:139px;    right:200px; height:397px; width:280px; }
+	.tablecentre{ position:absolute; left:-29px;  top:51px;  height:606px; width:200px; z-index:3; border-radius:10px 0 0 10px;}
+	.tabledroite{ position:absolute; left:171px;  top:51px;  height:606px; width:370px; z-index:2; border-radius:0 10px 10px 0;}
+   
+ </style>
  
 </head>
 
 <body>
 
-<!-- ARRIERE PLAN :  -->
 
-<?php include("inc/ecriture/ecritureBD_background.php"); ?> 
 <div id="acteN"></div>
 
  <div class="centrer" >
-  
+ 
 <form action ="SERVEUR/ecritureBD_insertionSQL" method="post" name="form1" >
     <!-- LE PANNEAU DE GAUCHE :  -->
          <?php include("inc/ecriture/ecritureBD_panodegauche.php"); ?>
@@ -111,6 +116,8 @@
 	 </tr>
   </table>
 </form>
+
+
 </div> 
 
 </body>

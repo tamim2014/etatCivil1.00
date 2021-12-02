@@ -12,7 +12,14 @@
 	 <script src="js/jquery.js"></script>
 	 <script src="js/lectureBD.js"></script>
 	 
-	  <!--  <script src="js/ecritureBD.js"></script> -->
+	 <!--  <script src="js/ecritureBD.js"></script> -->
+	 <style>
+	         .hollowTop, .closeUpperMargin , .hollowBottom , .closeLowerMargin, .openLowerMargin , .line1 , .line2, .line3 { left:7%;}
+	          body {background-image: none; background-color:#bbb; 	padding-left:1em; padding-right:1em;}
+	         .mnayvawo{left:42.11%;}
+	         .tablegauche{ position:absolute;  left:-300px;  top:73px;    right:200px; height:397px; width:280px;  }
+	         .tabledroiteresultat{ position:absolute; left:19px;  top:-16px; z-index:2; height:606px; width:570px}
+	 </style>
 	  
 </head>
 
@@ -38,7 +45,7 @@
 	 
 	 
 <!-- LE PANNEAU DE DROITE :  -->
-      <table  class="tabledroiteresultat" ><caption style="caption-side:top"> <font color="#FFFFFF"><h3> Resultat : acte de naissance trouv&eacute; </h3></caption>
+      <table  class="tabledroiteresultat" ><caption style="caption-side:top"> <font color="#FFFFFF"><h3> ...</h3></caption>
         <tr ><td  > <div id="yivawo" >
           <div class="kangaLaBoutonPopup"  >
 			<a href="#"   onclick="popup_lectureBD2();  "   ><input type="button"  value="Afficher plein écran" align="center"  style="background-color: #e5eecc;  height:30px;  "/> </a>
