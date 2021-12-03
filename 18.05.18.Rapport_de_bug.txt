@@ -12,7 +12,7 @@ $result = mysqli_query($conn,$requete);
 
 BUG
 
-Il n y a rien d'aussi pourtant le OU logique(OR) ne fonctionne pas.
+Il n y a rien  pourtant le OU logique(OR) ne fonctionne pas.
 la recherche par numero fonctionne mais
 - Impossible d' effectuer une recherc par nom.
 - j'y ai passé 2 jours avant de comprendre que c'est le OR qui fou la merde

@@ -79,13 +79,18 @@ session_start();
 	  <script src="assets/js/respond.min.js"></script>
 	<![endif]-->
     <style>
-	         .hollowTop, .closeUpperMargin , .hollowBottom , .closeLowerMargin, .openLowerMargin , .line1 , .line2, .line3 { left:7%;}
-	          body {background-image: none; background-color:#bbb; 	padding-left:1em; padding-right:1em;}
+	         .hollowTop, .closeUpperMargin , .hollowBottom , .closeLowerMargin, .openLowerMargin , .line1 , .line2, .line3 { left:0; width:98%; background-color:silver; }
+			 .hollowBottom { background:silver; height:59% !important;}
+	          body {background-image: none; background-color:silver; 	padding:0; }
 	         
-	         .tablegauche{ position:absolute; left:-303px;  top:73px;    right:200px; height:397px; width:280px;  }
-			 .tablecentre{ position:absolute; left:0;      top:5.5px;  height:606px; width:200px; border-radius:10px 0 0 10px; }
-			 .tabledroite{ position:absolute; left:200px;  top:5.5px;  height:606px; width:370px; border-radius:0 10px 10px 0;}
-	 </style>
+
+	         .tablegauche{ position:relative; margin-left:-80%;  margin-top:3%;   height:25em; width:130%; }
+			 .tablecentre{ position:relative; margin-left:-80%;     margin-top:-238%;    height:37.875em; width:12.5em; border-radius:10px 0 0 10px;  }
+	         .tabledroite{ position:absolute; left:7.3em;       top:1em;    height:37.875em; width:23.125em; border-radius:0 10px 10px 0;  }
+			 @media screen and (max-width: 1024px){ .tabledroite{ width:220%; }}
+			 @media screen and (min-width: 1280px){ .tabledroite{ width:333%; }}
+			 @media screen and (min-width: 1600px){ .tabledroite{ width:479%; }}
+	</style>
 
  
 

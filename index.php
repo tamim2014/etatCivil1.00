@@ -8,7 +8,6 @@
  <link href="css/accueil.css" rel="stylesheet" title="Style" />
 
  <style>
- 
       * { box-sizing: border-box; }	
        body {  margin:0; overflow-x: hidden ; }
 	  .tablegauche{ left:-18.938em;  top:4.563em;  height:24.813em;                     width:17.5em; right:12.5em; }

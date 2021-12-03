@@ -16,9 +16,9 @@
 	 <style>
 	         .hollowTop, .closeUpperMargin , .hollowBottom , .closeLowerMargin, .openLowerMargin , .line1 , .line2, .line3 { left:7%;}
 	          body {background-image: none; background-color:#bbb; 	padding-left:1em; padding-right:1em;}
-	         .mnayvawo{left:42.11%;}
-	         .tablegauche{ position:absolute;  left:-300px;  top:73px;    right:200px; height:397px; width:280px;  }
-	         .tabledroiteresultat{ position:absolute; left:19px;  top:-16px; z-index:2; height:606px; width:570px}
+	         .mnayvawo{left:40.7%;}
+	         .tablegauche{ position:absolute;         left:-18.75em;  top:4.563em;   height:24.813em; width:17.5em;   right:12.5em; }
+	         .tabledroiteresultat{ position:absolute; left:0;         top:-1em;      height:37.875em; width:35.625em; z-index:2;}
 	 </style>
 </head>
 
